@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.viewmodel"
+    namespace = "com.example.data"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.viewmodel"
+        applicationId = "com.example.data"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

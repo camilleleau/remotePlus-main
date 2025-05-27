@@ -1,4 +1,4 @@
-package com.example.viewmodel.ui.theme
+package com.example.data.ui.theme
 
 import android.app.Activity
 import android.os.Build
