@@ -21,4 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "remotePlus"
 include(":app")
- 
+include(":app:vue")
+include(":vue")
+include(":viewmodel")
