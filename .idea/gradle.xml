@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/data" />
             <option value="$PROJECT_DIR$/viewmodel" />
             <option value="$PROJECT_DIR$/vue" />
+            <option value="$PROJECT_DIR$/vuecatalogue" />
           </set>
         </option>
       </GradleProjectSettings>

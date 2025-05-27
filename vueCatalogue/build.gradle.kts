@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.vue"
+    namespace = "com.example.vuecatalogue"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.vueCatalogue"
+        applicationId = "com.example.vuecatalogue"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

@@ -25,15 +25,11 @@ androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-toolin
 androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx",        version.ref = "navigation" }
-navigation-ui-ktx       = { module = "androidx.navigation:navigation-ui-ktx",              version.ref = "navigation" }
 navigation-compose      = { module = "androidx.navigation:navigation-compose",             version.ref = "navigation" }
-navigation-dynamic      = { module = "androidx.navigation:navigation-dynamic-features-fragment", version.ref = "navigation" }
 
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
-navigation-safe-args         = { id = "androidx.navigation.safeargs",          version.ref = "navigation" }
 navigation-safe-args-kotlin  = { id = "androidx.navigation.safeargs.kotlin",   version.ref = "navigation" }
