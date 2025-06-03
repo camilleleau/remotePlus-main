@@ -10,6 +10,10 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
     }
+    plugins {
+        id("com.google.dagger.hilt.android") version "2.48.1" apply false
+        id("com.google.devtools.ksp") version "1.9.23-1.0.20" apply false
+    }
 }
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
@@ -21,8 +25,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "remotePlus"
 include(":app")
-include(":app:vue")
-include(":vue")
-include(":viewmodel")
 include(":data")
 include(":vuecatalogue")

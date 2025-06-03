@@ -4,13 +4,15 @@ plugins {
     alias(libs.plugins.kotlin.compose)
 }
 
+
+
 android {
-    namespace = "com.example.vuecatalogue"
+    namespace = "com.remoteplus"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.vuecatalogue"
-        minSdk = 24
+        applicationId = "com.remoteplus.vuecatalogue"
+        minSdk = 31
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -56,4 +58,13 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation(project(":app"))
+    implementation(project(":data"))
+    implementation(libs.retrofit)
+    implementation(libs.converter.moshi)
+    implementation(libs.moshi)
+    implementation(libs.moshi.kotlin)
+
 }
+
+

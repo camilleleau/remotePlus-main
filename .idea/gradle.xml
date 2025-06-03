@@ -11,10 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/app/vue" />
             <option value="$PROJECT_DIR$/data" />
-            <option value="$PROJECT_DIR$/viewmodel" />
-            <option value="$PROJECT_DIR$/vue" />
             <option value="$PROJECT_DIR$/vuecatalogue" />
           </set>
         </option>
