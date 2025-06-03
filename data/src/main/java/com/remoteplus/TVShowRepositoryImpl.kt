@@ -19,6 +19,7 @@ class TVShowRepositoryImpl(
                 season = it.season ?: 0,
                 episode = it.number ?: 0,
                 network = it.show.network?.name ?: "Unknown Network",
+                channel = it.show.network?.name ?: "Inconnu",
                 imageUrl = it.show.image?.medium
             )
         }

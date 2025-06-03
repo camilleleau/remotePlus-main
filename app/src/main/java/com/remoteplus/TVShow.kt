@@ -7,5 +7,6 @@ data class TVShow(
     val season: Int,
     val episode: Int,
     val network: String,
+    val channel: String,
     val imageUrl: String?
 )
